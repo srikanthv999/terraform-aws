@@ -5,6 +5,6 @@ resource "aws_s3_bucket" "s3bkt-dev" {
     Name        = "Tf-S3-Bucket-Dev"
     Environment = "Dev"
     ProjectCode = "Mn10091"
-    CostCenter = "9001"
+    CostCenter = "900122"
   }
 }
