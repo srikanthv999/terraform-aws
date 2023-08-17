@@ -4,6 +4,6 @@ resource "aws_s3_bucket" "s3bkt-dev" {
   tags = {
     Name        = "Tf-S3-Bucket"
     Environment = "Dev"
-    ProjectCode = "Mn1001"
+    ProjectCode = "Mn10091"
   }
 }
